@@ -1,0 +1,15 @@
+{
+  "data" : [
+    {
+      "filename" : "DMSans-Bold.ttf",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "compression-type" : "none"
+  }
+}

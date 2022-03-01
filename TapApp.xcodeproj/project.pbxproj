@@ -11,6 +11,8 @@
 		DAD34ACA27CE6443007A4ECC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD34AC927CE6443007A4ECC /* ContentView.swift */; };
 		DAD34ACC27CE6446007A4ECC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAD34ACB27CE6446007A4ECC /* Assets.xcassets */; };
 		DAD34ACF27CE6446007A4ECC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAD34ACE27CE6446007A4ECC /* Preview Assets.xcassets */; };
+		DAD34AD627CE6465007A4ECC /* LogInScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD34AD527CE6465007A4ECC /* LogInScreen.swift */; };
+		DAD34AD827CE6477007A4ECC /* SingUpScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD34AD727CE6477007A4ECC /* SingUpScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		DAD34AC927CE6443007A4ECC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DAD34ACB27CE6446007A4ECC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DAD34ACE27CE6446007A4ECC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DAD34AD527CE6465007A4ECC /* LogInScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInScreen.swift; sourceTree = "<group>"; };
+		DAD34AD727CE6477007A4ECC /* SingUpScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingUpScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				DAD34AC727CE6443007A4ECC /* TapAppApp.swift */,
 				DAD34AC927CE6443007A4ECC /* ContentView.swift */,
+				DAD34AD527CE6465007A4ECC /* LogInScreen.swift */,
+				DAD34AD727CE6477007A4ECC /* SingUpScreen.swift */,
 				DAD34ACB27CE6446007A4ECC /* Assets.xcassets */,
 				DAD34ACD27CE6446007A4ECC /* Preview Content */,
 			);
@@ -138,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DAD34ACA27CE6443007A4ECC /* ContentView.swift in Sources */,
+				DAD34AD627CE6465007A4ECC /* LogInScreen.swift in Sources */,
 				DAD34AC827CE6443007A4ECC /* TapAppApp.swift in Sources */,
+				DAD34AD827CE6477007A4ECC /* SingUpScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
