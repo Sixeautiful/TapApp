@@ -13,7 +13,6 @@ extension Color {
     static let newYellow = Color("Yellow")
     static let granatowy = Color("Granatowy")
 }
-
 struct LogInScreen: View {
    
     @State var username: String = ""
