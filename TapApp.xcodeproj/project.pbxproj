@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA9864E0280605CF00645F82 /* DMSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA9864E2280605CF00645F82 /* DMSans-Bold.ttf */; };
 		DAD34AC827CE6443007A4ECC /* TapAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD34AC727CE6443007A4ECC /* TapAppApp.swift */; };
 		DAD34ACA27CE6443007A4ECC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD34AC927CE6443007A4ECC /* ContentView.swift */; };
 		DAD34ACC27CE6446007A4ECC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAD34ACB27CE6446007A4ECC /* Assets.xcassets */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DA9864E1280605CF00645F82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file; name = Base; path = "Base.lproj/DMSans-Bold.ttf"; sourceTree = "<group>"; };
+		DA9864E3280605D300645F82 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = "en.lproj/DMSans-Bold.ttf"; sourceTree = "<group>"; };
 		DAD34AC427CE6443007A4ECC /* TapApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TapApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAD34AC727CE6443007A4ECC /* TapAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapAppApp.swift; sourceTree = "<group>"; };
 		DAD34AC927CE6443007A4ECC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -60,6 +63,7 @@
 				DAD34AD527CE6465007A4ECC /* LogInScreen.swift */,
 				DAD34AD727CE6477007A4ECC /* SingUpScreen.swift */,
 				DAD34ACB27CE6446007A4ECC /* Assets.xcassets */,
+				DA9864E2280605CF00645F82 /* DMSans-Bold.ttf */,
 				DAD34ACD27CE6446007A4ECC /* Preview Content */,
 			);
 			path = TapApp;
@@ -132,6 +136,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DAD34ACF27CE6446007A4ECC /* Preview Assets.xcassets in Resources */,
+				DA9864E0280605CF00645F82 /* DMSans-Bold.ttf in Resources */,
 				DAD34ACC27CE6446007A4ECC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -151,6 +156,18 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DA9864E2280605CF00645F82 /* DMSans-Bold.ttf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA9864E1280605CF00645F82 /* Base */,
+				DA9864E3280605D300645F82 /* en */,
+			);
+			name = "DMSans-Bold.ttf";
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		DAD34AD027CE6446007A4ECC /* Debug */ = {

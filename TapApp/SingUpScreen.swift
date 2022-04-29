@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct SingUpScreen: View {
+struct SingUpScreen: View{
     
      @State var username: String = ""
      @State var Password: String = ""
@@ -43,13 +43,7 @@ struct SingUpScreen: View {
             
 
                  Button(action:{
-                         if Password != "pass" {
-                     logtext = "Incorrect pasword or login"
-                 }
-                     else
-                     {
-                         logtext = "Sucsesfuly loged in!"
-                     }
+                  // account = true
                  }, label: {
                      Text("Sing Up")
                          .font(.title3)

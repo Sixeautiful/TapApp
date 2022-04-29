@@ -7,10 +7,20 @@
 
 import SwiftUI
 
+
+
 struct ContentView: View {
+    
+    @State var account: Bool = true
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        if !account {
+            SingUpScreen()
+        }
+        else{
+            LogInScreen()
+        }
+       
     }
 }
 
