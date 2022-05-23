@@ -6,5 +6,5 @@ target 'TapApp' do
   use_frameworks!
 
   # Pods for TapApp
-
+  pod 'Firebase/Firestore'
 end
